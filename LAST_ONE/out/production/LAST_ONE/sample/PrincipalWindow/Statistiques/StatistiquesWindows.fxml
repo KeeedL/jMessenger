@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="258.0" prefWidth="426.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PrincipalWindow.Statistiques.StatistiquesWindows">
+   <children>
+      <Text layoutX="54.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre de message envoyé" wrappingWidth="99.13671875" />
+      <Text layoutX="243.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre d'ami" wrappingWidth="114.306640625" />
+      <Text layoutX="54.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre de message par salon" wrappingWidth="99.13671612739563" />
+      <Text layoutX="243.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Votre nombre de salon" wrappingWidth="92.13671875" />
+      <Text fx:id="NbMsgUser" layoutX="81.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="NbAmi" layoutX="278.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="NbMsgSalon" layoutX="81.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="NbSalon" layoutX="278.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="182.0" prefWidth="290.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PrincipalWindow.ExportXML.ExportXMLWindow">
+   <children>
+      <Button layoutX="207.0" layoutY="79.0" mnemonicParsing="false" onAction="#OnClickExport" prefHeight="25.0" prefWidth="63.0" text="Exporter" />
+      <TextField fx:id="idSalon" layoutX="32.0" layoutY="79.0" promptText="Salon à exporter" />
+   </children>
+</AnchorPane>
